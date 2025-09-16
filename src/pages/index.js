@@ -42,10 +42,6 @@ export default function Home() {
           Our Services <ChevronRight />
         </button>
       </div>
-
-      {/* About Us */}
-       <ChoseUs />
-      <AboutUs />
     </div>
   );
 }
