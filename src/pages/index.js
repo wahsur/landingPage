@@ -1,5 +1,5 @@
-import ChoseUs from "../pages/components/ChoseUs";
-import AboutUs from "../pages/components/AboutUs";
+import AboutUs from "@/components/AboutUs";
+import ChoseUs from "@/components/ChoseUs";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 

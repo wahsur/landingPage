@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutUs() {
   return (
     <section className="bg-[#F5F5F5] py-16 px-6 md:px-12">
@@ -10,21 +12,25 @@ export default function AboutUs() {
         {/* Top Content */}
         <div className="grid gap-8 items-center mb-16">
           {/* Left: Image + Company name */}
-          <div>
-            <img
-              src="aboutus.jpg"
+          <div className="relative w-full h-80 mb-4">
+            <Image
+              src="/image/aboutus.jpg"
               alt="Company building"
-              className="rounded-md w-full h-80 object-cover mb-4"
+              fill
+              className="rounded-md object-cover"
+              priority
             />
           </div>
 
           {/* Right: Company description */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-             <h3 className="text-6xl text-[#2C1C4B]">
+            <h3 className="text-6xl text-[#2C1C4B]">
               PT Semua Aplikasi Indonesia
             </h3>
             <p className="text-black leading-relaxed">
-             Founded on 2022, our vision is to revolutionize lives through innovative technology. We believe in building mutually beneficial partnerships to create a better future together.
+              Founded on 2022, our vision is to revolutionize lives through
+              innovative technology. We believe in building mutually beneficial
+              partnerships to create a better future together.
             </p>
           </div>
         </div>
@@ -33,20 +39,20 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left big text */}
           <h3 className="text-3xl md:text-4xl font-bold text-[#2C1C4B] leading-snug">
-            We’re here to<br /> help you <br /> reach your dreams.
+            We’re here to
+            <br /> help you <br /> reach your dreams.
           </h3>
 
           {/* Right cards */}
           <div className="space-y-4">
             {[1, 2, 3].map((i) => (
-              <div
-                key={i}
-                className="bg-white rounded-md shadow p-4"
-              >
+              <div key={i} className="bg-white rounded-md shadow p-4">
                 <h4 className="text-xl font-semibold text-[#91B949] mb-1">
                   Innovation and Impact
                 </h4>
-                <p className="text-gray-600 text-sm"> To empower individuals and businesses with innovative
+                <p className="text-gray-600 text-sm">
+                  {" "}
+                  To empower individuals and businesses with innovative
                   technology solutions that drive positive change and improve
                   lives.
                 </p>
