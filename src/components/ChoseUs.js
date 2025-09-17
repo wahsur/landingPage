@@ -2,7 +2,7 @@ import { Zap, Globe, MapPin, Users } from "lucide-react";
 
 export default function ChoseUs() {
   return (
-    <section className="bg-[#ECECEC] py-16">
+    <section className="bg-background1 py-16">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-[#2C1C4B] mb-8">Why choose us?</h2>
 
