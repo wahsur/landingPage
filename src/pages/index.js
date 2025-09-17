@@ -1,49 +1,63 @@
+import Home from "@/components/Home";
 import AboutUs from "@/components/AboutUs";
+import Trusted from "@/components/Trusted";
 import ChoseUs from "@/components/ChoseUs";
-import { ChevronRight } from "lucide-react";
-import Image from "next/image";
+import Partner from "@/components/Partner";
+import Brand from "@/components/Brand";
+import Contact from "@/components/Contact";
 
-export default function Home() {
+export default function IndexPage() {
   return (
-    <div className="relative flex flex-col justify-center min-h-screen w-full">
-      {/* hero section */}
-      <Image
-        src="/image/bg-section1.jpg"
-        alt="background"
-        fill
-        priority
-        className="object-cover"
-      />
-      <div className="absolute inset-0 bg-primaryOpacity/80" />
+    <main>
+      {/* Hero / Home */}
+      <section id="home">
+        <Home />
+      </section>
 
-      <div className="relative mt-4 z-10 text-start text-white flex flex-col items-start px-32">
-        {/* Logo */}
-        <Image
-          src="/image/logo.png"
-          alt="Company Logo"
-          width={120}
-          height={120}
-          className="mb-2"
-        />
+      {/* About Us */}
+      <section id="about">
+        <AboutUs />
+        {/* Trusted */}
+        <section>
+          <Trusted />
+        </section>
+      </section>
 
-        {/* Heading */}
-        <h1 className="text-4xl font-bold w-100">
-          PT SEMUA APLIKASI INDONESIA (SAI)
-        </h1>
+      {/* Services */}
+      <section
+        id="services"
+        className="h-screen bg-primary flex items-center justify-center text-white"
+      >
+        <h2>Services Section</h2>
+      </section>
+      <section>
+        <ChoseUs />
+      </section>
 
-        {/* Subheading */}
-        <p className="mt-2 text-lg font-monospace
-         font-extralight tracking-[0.3em]">
-          INNOVATIVE, INTEGRATED, ELEVATE
-        </p>
+      {/* Section lain misalnya Partner / FAQ */}
+      <section id="partner">
+        <Partner />
+        <section>
+          <Brand />
+        </section>
+      </section>
 
-        {/* button CTA */}
-        <button className="mt-3 flex text-xl bg-secondary text-white px-4 py-4 rounded-lg shadow-md drop-shadow-[0_0_10px_#98C449] hover:bg-hover_bg transition"> 
-          Our Services <ChevronRight />
-        </button>
-      </div>
+      <section
+        id="faqs"
+        className="h-screen bg-gray-600 flex items-center justify-center text-white"
+      >
+        <h2>FAQs Section</h2>
+      </section>
 
-
-    </div>
+      <section id="contact">
+        <Contact />
+      </section>
+      <section
+        id="footer"
+        className="h-36 bg-primaryFooter flex items-center justify-center text-white"
+      >
+        <h2>Footer Section</h2>
+      </section>
+    </main>
   );
 }

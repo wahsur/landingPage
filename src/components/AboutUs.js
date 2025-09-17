@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <section className="bg-[#F5F5F5] py-16 px-6 md:px-12">
+    <section id="about" className="bg-background1 py-20 px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
         {/* Title */}
-        <h2 className="text-4xl md:text-5xl font-extrabold text-[#2C1C4B] text-center mb-12">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-primary text-center mb-12">
           ABOUT US
         </h2>
 
@@ -37,13 +37,11 @@ export default function AboutUs() {
 
         {/* Bottom Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          {/* Left big text */}
-          <h3 className="text-3xl md:text-4xl font-bold text-[#2C1C4B] leading-snug">
+          <h3 className="text-3xl md:text-6xl font-bold text-[#2C1C4B] leading-snug">
             We’re here to
             <br /> help you <br /> reach your dreams.
           </h3>
 
-          {/* Right cards */}
           <div className="space-y-4">
             {[1, 2, 3].map((i) => (
               <div key={i} className="bg-white rounded-md shadow p-4">
@@ -51,7 +49,6 @@ export default function AboutUs() {
                   Innovation and Impact
                 </h4>
                 <p className="text-gray-600 text-sm">
-                  {" "}
                   To empower individuals and businesses with innovative
                   technology solutions that drive positive change and improve
                   lives.
@@ -60,7 +57,7 @@ export default function AboutUs() {
             ))}
           </div>
         </div>
-      </div>
+      </div>      
     </section>
   );
 }
