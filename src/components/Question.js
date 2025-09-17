@@ -33,7 +33,7 @@ export default function Question() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="relative w-full min-h-screen text-white py-16 px-6 md:px-12 overflow-hidden">
+    <section className="relative w-full min-h-screen text-white py-20 px-6 md:px-12 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
           src="/image/bg-faqs.jpg"

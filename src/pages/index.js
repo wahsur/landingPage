@@ -5,6 +5,9 @@ import ChoseUs from "@/components/ChoseUs";
 import Partner from "@/components/Partner";
 import Brand from "@/components/Brand";
 import Contact from "@/components/Contact";
+import Service from "@/components/Service";
+import Question from "@/components/Question";
+import Footer from "@/components/Footer";
 
 export default function IndexPage() {
   return (
@@ -24,39 +27,38 @@ export default function IndexPage() {
       </section>
 
       {/* Services */}
-      <section
-        id="services"
-        className="h-screen bg-primary flex items-center justify-center text-white"
-      >
-        <h2>Services Section</h2>
-      </section>
-      <section>
-        <ChoseUs />
+      <section id="services">
+        <Service />
+        <section>
+          <ChoseUs />
+        </section>
       </section>
 
-      {/* Section lain misalnya Partner / FAQ */}
+      {/* Partner */}
       <section id="partner">
         <Partner />
         <section>
           <Brand />
         </section>
       </section>
-      
+
+      {/* FAQs */}
       <section
         id="faqs"
-        className="h-screen bg-gray-600 flex items-center justify-center text-white"
       >
-        <h2>FAQs Section</h2>
+        <Question />
       </section>
 
+      {/* Contact Us */}
       <section id="contact">
         <Contact />
       </section>
+
+      {/* Footer */}
       <section
         id="footer"
-        className="h-36 bg-primaryFooter flex items-center justify-center text-white"
       >
-        <h2>Footer Section</h2>
+        <Footer />
       </section>
     </main>
   );

@@ -10,7 +10,7 @@ export default function Services() {
         <div className="absolute inset-0 bg-primary opacity-80"></div>
       </div>
 
-      <div className="relative z-10 flex-col items-center justify-center h-full text-white py-16 px-6 md:px-12">
+      <div className="relative z-10 flex-col items-center justify-center h-full text-white py-20 px-6 md:px-12">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center" style={{ textShadow: "-3px 3px 4px rgba(0, 0, 0, 0.5)" }}>
           SERVICES
         </h2>
