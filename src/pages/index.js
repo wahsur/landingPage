@@ -41,7 +41,7 @@ export default function IndexPage() {
           <Brand />
         </section>
       </section>
-
+      
       <section
         id="faqs"
         className="h-screen bg-gray-600 flex items-center justify-center text-white"
