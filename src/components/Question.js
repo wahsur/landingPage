@@ -7,25 +7,25 @@ const faqs = [
     id: "01",
     question: "Perangkat apa saja yang disediakan oleh SAI ?",
     answer:
-      "Hampir seluruh perangkat dapat disediakan oleh SAI,karena SAI memiliki partner dari berbagai brand dan jenis perangkat yang dibutuhkan, baik untuk industri hingga individu",
+      "Hampir seluruh perangkat dapat disediakan oleh SAI, karena SAI memiliki partner dari berbagai merek dan jenis perangkat yang dibutuhkan, baik untuk industri hingga individu.",
   },
   {
     id: "02",
     question: "Apakah SAI melayani pembuatan website ?",
     answer:
-      "SAI mengutamakan project partnership untuk membangun sistem berupa website maupun aplikasi. produk aplikasi ini berbasis website dan juga mobile apps dengan teknologi termutakhir",
+      "SAI mengutamakan project partnership untuk membangun sistem berupa website maupun aplikasi. Produk aplikasi ini berbasis website dan juga aplikasi mobile dengan teknologi termutakhir.",
   },
   {
     id: "03",
     question: "Bagaimana sistem pembayaran di SAI ?",
     answer:
-      "SAI melayani pembelian putus dengan pembayaran di depan maupun dibelakang dengan invoice. Pembayaran lunas maupun cicilan, sesuai kebutuhan pelanggan",
+      "SAI melayani pembelian dengan pembayaran di depan maupun dibelakang dengan invoice. Pembayaran lunas maupun cicilan, sesuai kebutuhan pelanggan.",
   },
   {
     id: "04",
     question: "Apakah menjadi partner NetforEnt dipungut biaya ?",
     answer:
-      "Saat ini tidak ada pungutan biaya apapun termasuk instalasi di venue yang sering mengadakan event di hotel maupun event venue lainnya",
+      "Saat ini tidak ada pungutan biaya apapun termasuk instalasi di venue yang sering mengadakan event di hotel maupun event venue lainnya.",
   },
 ];
 
@@ -49,17 +49,17 @@ export default function Question() {
         <h2
           className="text-4xl md:text-5xl font-extrabold mb-12 text-center text-shadow-lg"
         >
-          FAQS
+          PERTANYAAN
         </h2>
 
         <div className="flex flex-col text-center md:text-center md:flex-col lg:text-start lg:flex-row max-w-6xl mx-auto gap-12">
           <div className="w-full lg:w-1/2">
             <h1 className="text-3xl md:text-5xl font-semibold text-secondary leading-tight">
-              FREQUENTLY
-              <br />
-              ASKED
-              <br />
-              QUESTION
+              PERTANYAAN <br className="hidden lg:block" />
+              UMUM <br className="hidden lg:block" />
+              YANG <br className="md:block lg:hidden" />
+              SERING <br className="hidden lg:block" />
+              DIAJUKAN
             </h1>
           </div>
 

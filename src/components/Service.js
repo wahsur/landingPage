@@ -4,18 +4,18 @@ import { Wifi, Cpu, LayoutGrid } from "lucide-react";
 export default function Services() {
   const service = [
     {
-      title: "Apps Developer",
-      desc: "inovasi melalui kode, menyentuh hidup melalui aplikasi.",
+      title: "Pengembang Aplikasi",
+      desc: "Inovasi melalui kode, menyentuh hidup melalui aplikasi.",
       icon: <LayoutGrid className="w-20 h-20 text-primary" />,
     },
     {
-      title: "Hardware Supplier",
-      desc: "menggerakkan teknologi, memenuhi setiap kebutuhan hardware anda.",
+      title: "Penyedia Hardware",
+      desc: "Menggerakkan teknologi, memenuhi setiap kebutuhan hardware anda.",
       icon: <Cpu className="w-20 h-20 text-primary" />,
     },
     {
-      title: "Internet For Events",
-      desc: "penyedia internet khusus event yang fleksibel dan powerful.",
+      title: "Internet untuk Acara",
+      desc: "Penyedia internet khusus acara yang fleksibel dan powerful.",
       icon: <Wifi className="w-20 h-20 text-primary" />,
     },
   ];
@@ -35,17 +35,17 @@ export default function Services() {
 
       <div className="relative z-10 flex-col items-center justify-center h-full text-white py-20 px-6 lg:px-12">
         <h2 className="text-4xl lg:text-5xl font-extrabold mb-12 text-center text-shadow-lg">
-          SERVICES
+          LAYANAN
         </h2>
 
         <div className="flex flex-col lg:flex-row w-full max-w-6xl justify-between text-center lg:text-start lg:items-center">
           <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-tight">
-              We&apos;re <br className="hidden lg:block" />
-              provide <br className="hidden lg:block" />
-              what <br className="md:block lg:hidden" />
-               you <br className="hidden lg:block" />
-              need!
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+              Kami <br className="hidden lg:block" />
+              menyediakan <br className="hidden lg:block" />
+              apa <br className="md:block lg:hidden" />
+              yang anda <br className="hidden lg:block" />
+              butuhkan!
             </h1>
           </div>
 
@@ -65,7 +65,7 @@ export default function Services() {
                   </p>
                 </div>
                 <button className="flex items-center bg-secondary hover:bg-hover_bg text-white rounded-lg py-1 px-3 font-bold text-sm lg:text-base whitespace-nowp">
-                  Learn More
+                  Selengkapnya
                   <span className="ml-1 text-lg">›</span>
                 </button>
               </div>

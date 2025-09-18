@@ -13,12 +13,12 @@ export default function IndexPage() {
   return (
     <main>
       {/* Hero / Home */}
-      <section id="home">
+      <section id="beranda">
         <Home />
       </section>
 
       {/* About Us */}
-      <section id="about">
+      <section id="tentang">
         <AboutUs />
         {/* Trusted */}
         <section>
@@ -27,7 +27,7 @@ export default function IndexPage() {
       </section>
 
       {/* Services */}
-      <section id="services">
+      <section id="layanan">
         <Service />
         <section>
           <ChoseUs />
@@ -35,7 +35,7 @@ export default function IndexPage() {
       </section>
 
       {/* Partner */}
-      <section id="partner">
+      <section id="mitra">
         <Partner />
         <section>
           <Brand />
@@ -44,13 +44,13 @@ export default function IndexPage() {
 
       {/* FAQs */}
       <section
-        id="faqs"
+        id="pertanyaan"
       >
         <Question />
       </section>
 
       {/* Contact Us */}
-      <section id="contact">
+      <section id="kontak">
         <Contact />
       </section>
 

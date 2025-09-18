@@ -14,7 +14,7 @@ export default function Partner() {
     },
     {
       title: "Event & Wedding Organizer",
-      desc: "Event adalah nafas dari bisnis anda, Koneksi internet bisa jadi syarat utama bagi pemilik event. Kami pastikan koneksi internet yang besar siap kami deliver di manapun venue anda berada",
+      desc: "Acara adalah nafas dari bisnis anda, Koneksi internet bisa jadi syarat utama bagi pemilik event. Kami pastikan koneksi internet yang besar siap kami deliver di manapun venue anda berada",
       img: "/image/event&wedding.png",
     },
     {
@@ -28,12 +28,12 @@ export default function Partner() {
       <div className="max-w-6xl mx-auto">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl text-shadow-lg font-extrabold text-primary text-center mb-12">
-          PARTNER
+          MITRA
         </h2>
         {/* Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-8">
-          <h3 className="text-3xl md:text-6xl font-bold text-primary leading-snug">
-            Be Our Partner!
+          <h3 className="text-3xl md:text-5xl font-bold text-primary leading-snug">
+            Jadilah Mitra Kami!
           </h3>
           <p className="text-primary leading-relaxed">
             “Bergabunglah bersama kami dan jadilah bagian dari jaringan mitra

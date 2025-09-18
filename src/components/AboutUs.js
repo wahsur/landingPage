@@ -3,15 +3,15 @@
 export default function AboutUs() {
   const dreams = [
     {
-      title: "Personalized Solutions",
+      title: "Solusi yang Disesuaikan",
       desc: "Kami percaya setiap orang punya kebutuhan unik. Karena itu, kami menawarkan solusi yang dirancang khusus untuk mendukung perjalanan dan tujuan pribadi Anda.",
     },
     {
-      title: "Trusted Expertise",
+      title: "Keahlian Tepercaya",
       desc: "Dengan pengalaman dan tim profesional, kami menghadirkan layanan yang bisa diandalkan untuk membantu Anda mewujudkan impian dengan percaya diri.",
     },
     {
-      title: "Continuous Support",
+      title: "Dukungan Berkelanjutan",
       desc: "Kami tidak hanya hadir sekali, tapi menemani Anda di setiap langkah perjalanan dengan dukungan yang berkelanjutan dan responsif.",
     },
   ];
@@ -20,7 +20,7 @@ export default function AboutUs() {
       <div className="max-w-6xl mx-auto">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-primary text-center mb-12 text-shadow-lg">
-          ABOUT US
+          TENTANG KAMI
         </h2>
 
         {/* Top Content */}
@@ -43,9 +43,9 @@ export default function AboutUs() {
               <br /> Indonesia
             </h3>
             <p className="text-black leading-relaxed text-right text-lg">
-              Founded on 2022, our vision is to revolutionize lives through
-              innovative technology. We believe in building mutually beneficial
-              partnerships to create a better future together.
+              Didirikan sejak tahun 2022, kami memiliki visi untuk mengubah kehidupan menjadi 
+              lebih baik lewat teknologi inovatif. Kami percaya bahwa dengan bekerja sama dan saling mendukung, 
+              kita bisa membangun masa depan yang lebih baik bersama.
             </p>
           </div>
         </div>
@@ -54,8 +54,10 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left big text */}
           <h3 className="text-3xl md:text-6xl font-semibold text-primary leading-snug">
-            We&apos;re here to
-            <br /> help you <br /> reach your dreams.
+            Kami di sini 
+            <br /> untuk membantu <br />
+            anda meraih <br /> 
+            <span className="text-secondary font-extrabold">impian.</span>
           </h3>
 
           <div className="space-y-4">
