@@ -2,52 +2,70 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="h-full bg-primaryFooter text-white pt-12">
+    <footer className="h-full bg-primaryFooter text-white pt-8">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo */}
-        <div>
+        <div className="flex flex-col items-center">
           <Image src="/image/logo.png" alt="Logo" width={200} height={100} />
-          <p className="text-lg text-center">
-           Innovate, Integrate, Elevate
-          </p>
+          <p className="text-lg text-center">Innovate, Integrate, Elevate</p>
         </div>
 
         {/* Socials */}
-        <div>
+        <div className="md:mt-3">
           <h4 className="font-semibold text-lg text-secondary mb-4">Socials</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">Instagram</a></li>
+            <li>
+              <a href="#">LinkedIn</a>
+            </li>
+            <li>
+              <a href="#">Instagram</a>
+            </li>
           </ul>
         </div>
 
         {/* Links */}
-        <div>
+        <div className="md:mt-3">
           <h4 className="font-semibold text-lg  text-secondary mb-4">Links</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Contact</a></li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About Us</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#partner">Partners</a>
+            </li>
+            <li>
+              <a href="#faqs">FAQs</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
-        
-        <div>
+
+        <div className="md:mt-3">
           <h4 className="font-semibold text-lg text-secondary mb-4">Address</h4>
           <p className="text-sm">
-            Jl. Patih Jelantik<br/>Istana Kuta Galeria<br/>Blok Broadway 2 No. 11<br/>Kuta, Bali 80361
+            Jl. Patih Jelantik
+            <br />
+            Istana Kuta Galeria
+            <br />
+            Blok Broadway 2 No. 11
+            <br />
+            Kuta, Bali 80361
           </p>
         </div>
-
-        <div className="max-w-4xl mx-auto py-4 text-center text-sm text-secondary">
+      </div>
+      <div className="flex justify-between py-5 px-24">
+        <div className="text-sm text-secondary">
           &copy; {new Date().getFullYear()} PT Semua Aplikasi Indonesia.
         </div>
-
-        <div className="max-w-4xl mx-auto py-4 text-center text-sm text-secondary ">  
-            All rights reserved.
-        </div>
+        <div className="text-sm text-secondary ">All rights reserved.</div>
       </div>
     </footer>
   );

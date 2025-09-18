@@ -13,16 +13,16 @@ export default function ChoseUs() {
           {/* Speed Delivery (kiri atas) */}
           <div className="md:col-span-2 h-[130px] rounded-l-md shadow shadow-black overflow-hidden flex">
             <div className="w-[35%] bg-[#ECECEC] p-6 flex flex-col justify-center border rounded-l-md border-black">
-              <h3 className="text-3xl md:text-6xl text-[#91B949] font-bold">
+              <h3 className="text-2xl md:text-4xl lg:text-6xl text-[#91B949] font-bold">
                 Speed
               </h3>
-              <p className="text-[#91B949] text-xl sm:text-3xl font-semibold">
+              <p className="text-[#91B949] text-xl md:text-2xl lg:text-3xl font-semibold">
                 Delivery
               </p>
             </div>
             <div className="w-[65%] bg-[#2C1C4B] text-white p-6 flex items-center justify-start gap-4">
-              <Zap className="w-10 h-10 md:w-24 md:h-24 shrink-0" />
-              <div className="flex flex-col text-lg md:text-3xl font-semibold">
+              <Zap className="w-10 h-10 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
+              <div className="flex flex-col text-lg md:text-2xl lg:text-3xl font-semibold">
                 <span>PENGIRIMAN</span>
                 <span>CEPAT DAN AMAN</span>
               </div>
@@ -32,16 +32,16 @@ export default function ChoseUs() {
           {/* Brands International (kanan full tinggi) */}
           <div className="md:row-span-2 rounded-t-md shadow shadow-black overflow-hidden flex flex-col">
             <div className="bg-[#ECECEC] p-6 flex-1 flex flex-col text-right border rounded-t-md border-black">
-              <h3 className="text-3xl md:text-6xl text-[#91B949] font-bold">
+              <h3 className="text-3xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
                 Brands
               </h3>
-              <p className="text-[#91B949] text-xl sm:text-3xl font-semibold">
+              <p className="text-[#91B949] text-xl md:text-3xl font-semibold">
                 International
               </p>
             </div>
             <div className="bg-[#2C1C4B] text-white p-6 flex-1 flex justify-center items-center gap-3">
-              <Globe className="w-10 h-10 md:w-24 md:h-24 shrink-0" />
-              <div className="flex flex-col text-lg md:text-3xl font-semibold text-start leading-tight">
+              <Globe className="w-10 h-10 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
+              <div className="flex flex-col text-lg md:text-2xl lg:text-3xl font-semibold text-start leading-tight">
                 <span>MITRA GLOBAL</span>
                 <span>TERPERCAYA</span>
               </div>
@@ -51,7 +51,7 @@ export default function ChoseUs() {
           {/* Bali Tech Company (kiri bawah) */}
           <div className="rounded-t-md shadow shadow-black overflow-hidden flex flex-col">
             <div className="h-[50%] bg-[#ECECEC] p-4 flex-1 flex flex-col justify-center border rounded-t-md border-black">
-              <h3 className="text-3xl md:text-6xl text-[#91B949] font-bold">
+              <h3 className="text-3xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
                 Bali
               </h3>
               <p className="text-[#91B949] text-xl md:text-3xl font-semibold">
@@ -59,21 +59,21 @@ export default function ChoseUs() {
               </p>
             </div>
             <div className="h-[50%] bg-[#2C1C4B] text-white p-4 flex justify-center items-center gap-3">
-              <MapPin className="w-10 h-10 md:w-24 md:h-24 shrink-0" />
-              <p className="text-lg md:text-3xl font-semibold">BERBASIS DI BALI</p>
+              <MapPin className="w-10 h-10 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
+              <p className="text-lg md:text-2xl lg:text-3xl font-semibold">BERBASIS DI BALI</p>
             </div>
           </div>
 
           {/* 100+ Partners (tengah bawah) */}
           <div className="rounded-b-md shadow shadow-black overflow-hidden flex flex-col">
             <div className="h-[50%] bg-[#2C1C4B] text-white p-6 flex justify-center items-center gap-4">
-              <Users className="w-10 h-10 md:w-24 md:h-24 shrink-0" />
-              <p className="flex-col text-lg md:text-3xl font-semibold">
+              <Users className="w-10 h-10 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
+              <p className="flex-col text-lg md:text-2xl lg:text-3xl font-semibold">
                 LEBIH DARI 100 MITRA
               </p>
             </div>
             <div className="h-[50%] bg-[#ECECEC] p-4 flex-1 flex flex-col justify-center border rounded-b-md border-black">
-              <h3 className="text-3xl md:text-6xl text-[#91B949] font-bold">
+              <h3 className="text-3xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
                 100+
               </h3>
               <p className="text-[#91B949] text-xl md:text-3xl font-semibold">

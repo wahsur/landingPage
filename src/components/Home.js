@@ -38,7 +38,7 @@ export default function Home() {
         {/* Subheading */}
         <p
           className="mt-2 text-lg font-monospace
-         font-extralight tracking-[0.3em]"
+         font-extralight tracking-[0.3em] font-montserrat"
         >
           INNOVATIVE, INTEGRATED, ELEVATE
         </p>

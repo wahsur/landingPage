@@ -1,11 +1,25 @@
  import Image from "next/image";
 
 export default function AboutUs() {
+  const dreams = [
+    {
+      title: "Personalized Solutions",
+      desc: "Kami percaya setiap orang punya kebutuhan unik. Karena itu, kami menawarkan solusi yang dirancang khusus untuk mendukung perjalanan dan tujuan pribadi Anda.",
+    },
+    {
+      title: "Trusted Expertise",
+      desc: "Dengan pengalaman dan tim profesional, kami menghadirkan layanan yang bisa diandalkan untuk membantu Anda mewujudkan impian dengan percaya diri.",
+    },
+    {
+      title: "Continuous Support",
+      desc: "Kami tidak hanya hadir sekali, tapi menemani Anda di setiap langkah perjalanan dengan dukungan yang berkelanjutan dan responsif.",
+    },
+  ];
   return (
     <section className="bg-background2 py-20 px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
         {/* Title */}
-        <h2 className="text-4xl md:text-5xl font-extrabold text-primary text-center mb-12" style={{ textShadow: "-3px 2px 2px rgba(0, 0, 0, 0.5)" }}>
+        <h2 className="text-4xl md:text-5xl font-extrabold text-primary text-center mb-12 text-shadow-lg">
           ABOUT US
         </h2>
 
@@ -45,16 +59,13 @@ export default function AboutUs() {
           </h3>
 
           <div className="space-y-4">
-            {[1, 2, 3].map((i) => (
+            {dreams.map((dream, i) => (
               <div key={i} className="bg-white rounded-md shadow-md shadow-gray-400 p-5">
                 <h4 className="text-xl font-semibold text-secondary mb-1">
-                  Innovation and Impact
+                  {dream.title}
                 </h4>
                 <p className="text-primary text-sm">
-                  {" "}
-                  &quot;To empower individuals and businesses with innovative
-                  technology solutions that drive positive change and improve
-                  lives.&quot;
+                  &quot;{dream.desc}&quot;
                 </p>
               </div>
             ))}
