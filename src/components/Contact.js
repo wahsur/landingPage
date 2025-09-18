@@ -14,21 +14,21 @@ export default function Contact() {
               Contact
             </h3>
             <div className="space-y-4 my-4">
-              <h4 className="text-3xl md:text-3xl text-secondary leading-snug">
+              <h4 className="text-xl md:text-3xl text-secondary leading-snug">
                 Email
               </h4>
               <p className="text-primary leading-relaxed">
-                sai@gmail.component
+                info@semuaaplikasi.id
               </p>
             </div>
             <div className="space-y-4 my-4">
-              <h4 className="text-3xl md:text-3xl text-secondary leading-snug">
+              <h4 className="text-xl md:text-3xl text-secondary leading-snug">
                 Phone
               </h4>
-              <p className="text-primary leading-relaxed">+62 812-3456-7890</p>
+              <p className="text-primary leading-relaxed">+62 815-5541-5758</p>
             </div>
             <div className="space-y-4 my-4">
-              <h4 className="text-3xl md:text-3xl text-secondary leading-snug">
+              <h4 className="text-xl md:text-3xl text-secondary leading-snug">
                 Address
               </h4>
               <p className="text-primary leading-relaxed w-3/4">

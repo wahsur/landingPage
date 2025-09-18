@@ -40,7 +40,7 @@ export default function Services() {
 
         <div className="flex flex-col lg:flex-row w-full max-w-6xl justify-between text-center lg:text-start lg:items-center">
           <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold leading-tight">
               We&apos;re <br className="hidden lg:block" />
               provide <br className="hidden lg:block" />
               what <br className="md:block lg:hidden" />

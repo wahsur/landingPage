@@ -15,9 +15,11 @@ export default function Footer() {
           <h4 className="font-semibold text-lg text-secondary mb-4">Socials</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#">LinkedIn</a>
+             {/* PT Semua Aplikasi Indonesia */}
+              <a href="#">LinkedIn</a> 
             </li>
             <li>
+              {/* saitech.id */}
               <a href="#">Instagram</a>
             </li>
           </ul>

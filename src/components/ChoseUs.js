@@ -30,16 +30,18 @@ export default function ChoseUs() {
           </div>
 
           {/* Brands International (kanan full tinggi) */}
-          <div className="md:row-span-2 rounded-t-md shadow shadow-black overflow-hidden flex flex-col">
-            <div className="bg-[#ECECEC] p-6 flex-1 flex flex-col text-right border rounded-t-md border-black">
-              <h3 className="text-3xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
+          <div className="md:row-span-2 md:rounded-t-md md:rounded-r-0 rounded shadow shadow-black overflow-hidden flex flex-row md:flex-col h-[130px] md:h-full ">
+            {/* Bagian abu-abu */}
+            <div className="bg-[#ECECEC] order-2 md:order-1 p-6 flex-1 flex flex-col justify-center text-start border border-black w-[45%] md:w-full md:rounded-t-md rounded-r-md md:rounded-r-none">
+              <h3 className="text-2xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
                 Brands
               </h3>
               <p className="text-[#91B949] text-xl md:text-3xl font-semibold">
                 International
               </p>
             </div>
-            <div className="bg-[#2C1C4B] text-white p-6 flex-1 flex justify-center items-center gap-3">
+            {/* Bagian ungu */}
+            <div className="bg-[#2C1C4B] w-[55%] md:w-full order-1 md:order-2 text-white p-6 flex-1 flex justify-center items-center gap-3">
               <Globe className="w-10 h-10 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
               <div className="flex flex-col text-lg md:text-2xl lg:text-3xl font-semibold text-start leading-tight">
                 <span>MITRA GLOBAL</span>
@@ -49,8 +51,8 @@ export default function ChoseUs() {
           </div>
 
           {/* Bali Tech Company (kiri bawah) */}
-          <div className="rounded-t-md shadow shadow-black overflow-hidden flex flex-col">
-            <div className="h-[50%] bg-[#ECECEC] p-4 flex-1 flex flex-col justify-center border rounded-t-md border-black">
+          <div className="rounded-md shadow shadow-black overflow-hidden flex flex-row md:flex-col">
+            <div className="h-[130px] w-[35%] md:w-full md:h-[50%] bg-[#ECECEC] rounded-l-md p-4 flex-1 flex flex-col justify-center border md:rounded-l-none md:rounded-t-md border-black">
               <h3 className="text-3xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
                 Bali
               </h3>
@@ -58,21 +60,23 @@ export default function ChoseUs() {
                 Tech Company
               </p>
             </div>
-            <div className="h-[50%] bg-[#2C1C4B] text-white p-4 flex justify-center items-center gap-3">
+            <div className="h-[130px] w-[65%] md:w-full md:h-[50%] bg-[#2C1C4B] text-white p-4 flex justify-center items-center gap-3">
               <MapPin className="w-10 h-10 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
-              <p className="text-lg md:text-2xl lg:text-3xl font-semibold">BERBASIS DI BALI</p>
+              <p className="text-lg md:text-2xl lg:text-3xl font-semibold">
+                BERBASIS DI BALI
+              </p>
             </div>
           </div>
 
           {/* 100+ Partners (tengah bawah) */}
-          <div className="rounded-b-md shadow shadow-black overflow-hidden flex flex-col">
-            <div className="h-[50%] bg-[#2C1C4B] text-white p-6 flex justify-center items-center gap-4">
+          <div className="md:rounded-b-md rounded-r-md md:rounded-r-none shadow shadow-black overflow-hidden flex flex-row md:flex-col ">
+            <div className="h-[130px] md:h-full w-[55%] md:w-full bg-[#2C1C4B] text-white p-6 flex justify-center items-center gap-4">
               <Users className="w-10 h-10 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
               <p className="flex-col text-lg md:text-2xl lg:text-3xl font-semibold">
                 LEBIH DARI 100 MITRA
               </p>
             </div>
-            <div className="h-[50%] bg-[#ECECEC] p-4 flex-1 flex flex-col justify-center border rounded-b-md border-black">
+            <div className="h-[130px] md:h-full w-[45%] md:w-full bg-[#ECECEC] p-4 flex-1 flex flex-col justify-center border md:rounded-b-md  rounded-r-md md:rounded-r-none border-black">
               <h3 className="text-3xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
                 100+
               </h3>
