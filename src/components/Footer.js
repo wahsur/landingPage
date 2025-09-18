@@ -12,7 +12,7 @@ export default function Footer() {
 
         {/* Socials */}
         <div className="md:mt-3">
-          <h4 className="font-semibold text-lg text-secondary mb-4">Socials</h4>
+          <h4 className="font-semibold text-lg text-secondary mb-4">Media Sosial</h4>
           <ul className="space-y-2 text-sm">
             <li>
              {/* PT Semua Aplikasi Indonesia */}
@@ -27,31 +27,31 @@ export default function Footer() {
 
         {/* Links */}
         <div className="md:mt-3">
-          <h4 className="font-semibold text-lg  text-secondary mb-4">Links</h4>
+          <h4 className="font-semibold text-lg  text-secondary mb-4">Tautan</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#home">Home</a>
+              <a href="#home">Beranda</a>
             </li>
             <li>
-              <a href="#about">About Us</a>
+              <a href="#about">Tentang</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#services">Layanan</a>
             </li>
             <li>
-              <a href="#partner">Partners</a>
+              <a href="#partner">Mitra</a>
             </li>
             <li>
-              <a href="#faqs">FAQs</a>
+              <a href="#faqs">Pertanyaan</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">Kontak</a>
             </li>
           </ul>
         </div>
 
         <div className="md:mt-3">
-          <h4 className="font-semibold text-lg text-secondary mb-4">Address</h4>
+          <h4 className="font-semibold text-lg text-secondary mb-4">Alamat</h4>
           <p className="text-sm">
             Jl. Patih Jelantik
             <br />

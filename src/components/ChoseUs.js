@@ -5,7 +5,7 @@ export default function ChoseUs() {
     <section className="bg-background2 py-16">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-[rgb(44,28,75)] mb-8">
-          Why choose us?
+          Mengapa memilih kami?
         </h2>
 
         {/* Outer Grid Container */}
@@ -14,10 +14,10 @@ export default function ChoseUs() {
           <div className="md:col-span-2 h-[130px] rounded-l-md shadow shadow-black overflow-hidden flex">
             <div className="w-[35%] bg-[#ECECEC] p-6 flex flex-col justify-center border rounded-l-md border-black">
               <h3 className="text-2xl md:text-4xl lg:text-6xl text-[#91B949] font-bold">
-                Speed
+                Cepat
               </h3>
               <p className="text-[#91B949] text-xl md:text-2xl lg:text-3xl font-semibold">
-                Delivery
+                Sampai
               </p>
             </div>
             <div className="w-[65%] bg-[#2C1C4B] text-white p-6 flex items-center justify-start gap-4">
@@ -30,14 +30,13 @@ export default function ChoseUs() {
           </div>
 
           {/* Brands International (kanan full tinggi) */}
-          <div className="md:row-span-2 md:rounded-t-md md:rounded-r-0 rounded shadow shadow-black overflow-hidden flex flex-row md:flex-col h-[130px] md:h-full ">
-            {/* Bagian abu-abu */}
-            <div className="bg-[#ECECEC] order-2 md:order-1 p-6 flex-1 flex flex-col justify-center text-start border border-black w-[45%] md:w-full md:rounded-t-md rounded-r-md md:rounded-r-none">
-              <h3 className="text-2xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
-                Brands
+          <div className="md:row-span-2 rounded-t-md shadow shadow-black overflow-hidden flex flex-col">
+            <div className="bg-[#ECECEC] p-6 flex-1 flex flex-col text-right border rounded-t-md border-black">
+              <h3 className="text-3xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
+                Merek
               </h3>
               <p className="text-[#91B949] text-xl md:text-3xl font-semibold">
-                International
+                Internasional
               </p>
             </div>
             {/* Bagian ungu */}
@@ -51,13 +50,13 @@ export default function ChoseUs() {
           </div>
 
           {/* Bali Tech Company (kiri bawah) */}
-          <div className="rounded-md shadow shadow-black overflow-hidden flex flex-row md:flex-col">
-            <div className="h-[130px] w-[35%] md:w-full md:h-[50%] bg-[#ECECEC] rounded-l-md p-4 flex-1 flex flex-col justify-center border md:rounded-l-none md:rounded-t-md border-black">
-              <h3 className="text-3xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
-                Bali
+          <div className="rounded-t-md shadow shadow-black overflow-hidden flex flex-col">
+            <div className="h-[50%] bg-[#ECECEC] p-4 flex-1 flex flex-col justify-center border rounded-t-md border-black">
+              <h3 className="text-2xl md:text-4xl lg:text-5xl text-[#91B949] font-bold">
+                Perusahaan
               </h3>
               <p className="text-[#91B949] text-xl md:text-3xl font-semibold">
-                Tech Company
+                Teknologi Bali
               </p>
             </div>
             <div className="h-[130px] w-[65%] md:w-full md:h-[50%] bg-[#2C1C4B] text-white p-4 flex justify-center items-center gap-3">
@@ -81,7 +80,7 @@ export default function ChoseUs() {
                 100+
               </h3>
               <p className="text-[#91B949] text-xl md:text-3xl font-semibold">
-                Partners
+                Mitra
               </p>
             </div>
           </div>

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-  const [activeSection, setActiveSection] = useState("home");
+  const [activeSection, setActiveSection] = useState("beranda");
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -49,7 +49,7 @@ export default function Navbar() {
 
         {/* Navigasi Tengah (Desktop) */}
         <ul className="hidden lg:flex space-x-8 text-white gap-10 font-medium">
-          {["home", "about", "services", "partner", "faqs"].map((item) => (
+          {["beranda", "tentang", "layanan", "mitra", "pertanyaan"].map((item) => (
             <li key={item}>
               <Link
                 href={`#${item}`}
@@ -67,7 +67,7 @@ export default function Navbar() {
 
         {/* Contact Us (Desktop) */}
         <div className="hidden lg:flex bg-secondary text-white px-4 py-2 rounded-lg shadow-md drop-shadow-[0_0_10px_#98C449] hover:bg-hover_bg transition items-center cursor-pointer">
-          <a href="#contact">Contact Us</a>
+          <a href="#kontak">Hubungi Kami</a>
           <ChevronRight />
         </div>
 
@@ -86,7 +86,7 @@ export default function Navbar() {
       {/* Dropdown Menu Mobile */}
       {menuOpen && (
         <div className="md:hidden bg-primaryFooter/90 text-white px-6 py-4 space-y-4">
-          {["home", "about", "services", "partner", "faqs", "contact"].map(
+          {["beranda", "tentang", "layanan", "mitra", "pertanyaan", "kontak"].map(
             (item) => (
               <Link
                 key={item}
@@ -98,8 +98,8 @@ export default function Navbar() {
                     : "hover:text-secondary"
                 }`}
               >
-                {item === "contact"
-                  ? "Contact Us"
+                {item === "kontak"
+                  ? "Hubungi Kami"
                   : item.charAt(0).toUpperCase() + item.slice(1)}
               </Link>
             )
