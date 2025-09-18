@@ -5,27 +5,27 @@ import { useState } from "react";
 const faqs = [
   {
     id: "01",
-    question: "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut?",
+    question: "Perangkat apa saja yang disediakan oleh SAI ?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.",
+      "Hampir seluruh perangkat dapat disediakan oleh SAI,karena SAI memiliki partner dari berbagai brand dan jenis perangkat yang dibutuhkan, baik untuk industri hingga individu",
   },
   {
     id: "02",
-    question: "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut?",
+    question: "Apakah SAI melayani pembuatan website ?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.",
+      "SAI mengutamakan project partnership untuk membangun sistem berupa website maupun aplikasi. produk aplikasi ini berbasis website dan juga mobile apps dengan teknologi termutakhir",
   },
   {
     id: "03",
-    question: "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut?",
+    question: "Bagaimana sistem pembayaran di SAI ?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.",
+      "SAI melayani pembelian putus dengan pembayaran di depan maupun dibelakang dengan invoice. Pembayaran lunas maupun cicilan, sesuai kebutuhan pelanggan",
   },
   {
     id: "04",
-    question: "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut?",
+    question: "Apakah menjadi partner NetforEnt dipungut biaya ?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.",
+      "Saat ini tidak ada pungutan biaya apapun termasuk instalasi di venue yang sering mengadakan event di hotel maupun event venue lainnya",
   },
 ];
 
@@ -33,7 +33,7 @@ export default function Question() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="relative w-full min-h-screen text-white py-20 px-6 md:px-12 overflow-hidden">
+    <section className="relative w-full h-[130dvh] md:h-[85dvh] lg:h-screen text-white py-20 px-6 md:px-12 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
           src="/image/bg-faqs.jpg"
@@ -47,14 +47,13 @@ export default function Question() {
 
       <div className="relative z-10 ">
         <h2
-          className="text-4xl md:text-5xl font-bold mb-12 text-center"
-          style={{ textShadow: "-3px 3px 4px rgba(0, 0, 0, 0.5)" }}
+          className="text-4xl md:text-5xl font-extrabold mb-12 text-center text-shadow-lg"
         >
           FAQS
         </h2>
 
-        <div className="flex flex-col md:flex-row max-w-6xl mx-auto gap-12">
-          <div className="w-full md:w-1/2">
+        <div className="flex flex-col text-center md:text-center md:flex-col lg:text-start lg:flex-row max-w-6xl mx-auto gap-12">
+          <div className="w-full lg:w-1/2">
             <h1 className="text-3xl md:text-5xl font-semibold text-secondary leading-tight">
               FREQUENTLY
               <br />
@@ -64,7 +63,7 @@ export default function Question() {
             </h1>
           </div>
 
-          <div className="w-full md:w-3/2 space-y-8">
+          <div className="w-full lg:w-3/2 space-y-8">
             {faqs.map((faq, index) => (
               <div
                 key={faq.id}
