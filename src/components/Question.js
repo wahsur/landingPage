@@ -33,7 +33,7 @@ export default function Question() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="relative w-full h-[130dvh] md:h-[85dvh] lg:h-screen text-white py-20 px-6 md:px-12 overflow-hidden">
+    <section className="relative w-full h-[130dvh] md:h-[80dvh] lg:h-[110dvh] text-white py-20 px-6 md:px-12 font-poppins">
       <div className="absolute inset-0 z-0">
         <Image
           src="/image/bg-faqs.jpg"
@@ -45,10 +45,8 @@ export default function Question() {
         <div className="absolute inset-0 bg-primary opacity-80"></div>
       </div>
 
-      <div className="relative z-10 ">
-        <h2
-          className="text-4xl md:text-5xl font-extrabold mb-12 text-center text-shadow-lg"
-        >
+      <div className="relative z-10">
+        <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-center text-shadow-lg">
           PERTANYAAN
         </h2>
 
@@ -72,10 +70,12 @@ export default function Question() {
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-6">
-                    <span className="text-whitw text-2xl md:text-3xl">
+                    <span className="text-white text-2xl md:text-3xl">
                       {faq.id}
                     </span>
-                    <p className="text-lg md:text-xl font-medium">{faq.question}</p>
+                    <p className="text-lg md:text-xl font-medium">
+                      {faq.question}
+                    </p>
                   </div>
                   {openIndex === index ? (
                     <ChevronUp className="text-secondary w-6 h-6 md:w-8 md:h-8" />

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import NavItem from "./NavHelper";
 
 export default function Footer() {
   return (
@@ -12,15 +13,21 @@ export default function Footer() {
 
         {/* Socials */}
         <div className="md:mt-3">
-          <h4 className="font-semibold text-lg text-secondary mb-4">Media Sosial</h4>
+          <h4 className="font-semibold text-lg text-secondary mb-4">
+            Media Sosial
+          </h4>
           <ul className="space-y-2 text-sm">
             <li>
-             {/* PT Semua Aplikasi Indonesia */}
-              <a href="#">LinkedIn</a> 
+              {/* PT Semua Aplikasi Indonesia */}
+              <a href="https://www.linkedin.com/company/semuaaplikasiindonesia/">
+                LinkedIn
+              </a>
             </li>
             <li>
               {/* saitech.id */}
-              <a href="#">Instagram</a>
+              <a href="https://www.instagram.com/saitech.id?igsh=MXJjbzRzYTl0c3c2Yg==">
+                Instagram
+              </a>
             </li>
           </ul>
         </div>
@@ -30,22 +37,22 @@ export default function Footer() {
           <h4 className="font-semibold text-lg  text-secondary mb-4">Tautan</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#home">Beranda</a>
+              <NavItem id="BERANDA">Beranda</NavItem>
             </li>
             <li>
-              <a href="#about">Tentang</a>
+              <NavItem id="TENTANG">Tentang</NavItem>
             </li>
             <li>
-              <a href="#services">Layanan</a>
+              <NavItem id="LAYANAN">Layanan</NavItem>
             </li>
             <li>
-              <a href="#partner">Mitra</a>
+              <NavItem id="MITRA">Mitra</NavItem>
             </li>
             <li>
-              <a href="#faqs">Pertanyaan</a>
+              <NavItem id="PERTANYAAN">Pertanyaan</NavItem>
             </li>
             <li>
-              <a href="#contact">Kontak</a>
+              <NavItem id="KONTAK">Kontak</NavItem>
             </li>
           </ul>
         </div>
@@ -53,13 +60,15 @@ export default function Footer() {
         <div className="md:mt-3">
           <h4 className="font-semibold text-lg text-secondary mb-4">Alamat</h4>
           <p className="text-sm">
-            Jl. Patih Jelantik
-            <br />
-            Istana Kuta Galeria
-            <br />
-            Blok Broadway 2 No. 11
-            <br />
-            Kuta, Bali 80361
+            <a href="https://maps.app.goo.gl/8yFvLyvvVZfunAhe7?g_st=aw">
+              Jl. Patih Jelantik
+              <br />
+              Istana Kuta Galeria
+              <br />
+              Blok Broadway 2 No. 11
+              <br />
+              Kuta, Bali 80361
+            </a>
           </p>
         </div>
       </div>

@@ -20,7 +20,7 @@ export default function Services() {
     },
   ];
   return (
-    <section className="relative w-full h-min-screen overflow-hidden">
+    <section className="relative w-full h-min-screen overflow-hidden font-poppins">
       <div className="absolute inset-0 z-0">
         <Image
           src="/image/bg-service.jpg"
@@ -40,11 +40,11 @@ export default function Services() {
 
         <div className="flex flex-col lg:flex-row w-full max-w-6xl justify-between text-center lg:text-start lg:items-center">
           <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight">
               Kami <br className="hidden lg:block" />
               menyediakan <br className="hidden lg:block" />
-              apa <br className="md:block lg:hidden" />
-              yang anda <br className="hidden lg:block" />
+              apa <br className="hidden md:block lg:hidden" />
+              yang <br className="hidden lg:block" /> anda <br className="hidden lg:block" />
               butuhkan!
             </h1>
           </div>
@@ -53,7 +53,7 @@ export default function Services() {
             {service.map((services, index) => (
               <div
                 key={index}
-                className="lg:w-full md:w-96 w-64 bg-white rounded-xl p-4 lg:p-6 shadow-lg shadow-gray-800 flex flex-col md:flex-row lg:flex-row text-center md:text-start lg:text-start items-center gap-4"
+                className="lg:w-full md:w-xl w-64 bg-white rounded-xl p-4 lg:p-6 shadow-lg shadow-gray-800 flex flex-col md:flex-row lg:flex-row text-center md:text-start lg:text-start items-center gap-4"
               >
                 <div>{services.icon}</div>
                 <div className="flex-1">

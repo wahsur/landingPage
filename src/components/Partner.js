@@ -24,7 +24,7 @@ export default function Partner() {
     },
   ];
   return (
-    <section id="partner" className="h-full bg-background1 py-20 px-6 md:px-12">
+    <section id="MITRA" className="h-full bg-background1 py-20 px-6 md:px-12 font-poppins">
       <div className="max-w-6xl mx-auto">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl text-shadow-lg font-extrabold text-primary text-center mb-12">
@@ -72,7 +72,7 @@ export default function Partner() {
                     src={partner.img}
                     alt={partner.title}
                     fill
-                    className="object-contain rounded-md shadow"
+                    className="object-contain rounded-md md:shadow"
                   />
                 </div>
               </div>

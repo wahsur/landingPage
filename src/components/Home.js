@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <section
-      id="beranda"
+      id="BERANDA"
       className="relative flex flex-col justify-center min-h-screen w-full"
     >
       {/* hero section */}
@@ -44,8 +44,10 @@ export default function Home() {
         </p>
 
         {/* button CTA */}
-        <button className="mt-3 flex items-center justify-center text-xl bg-secondary text-white px-4 py-4 rounded-lg shadow-md drop-shadow-[0_0_10px_#98C449] hover:bg-hover_bg transition">
-          <a href="#services">Layanan Kami</a>
+        <button onClick={() => {
+          document.getElementById("LAYANAN")?.scrollIntoView({behavior: "smooth"})
+        }} className="mt-3 flex items-center justify-center text-xl bg-secondary text-white px-4 py-4 rounded-lg shadow-md drop-shadow-[0_0_10px_#98C449] hover:bg-hover_bg transition">
+          Layanan Kami
           <ChevronRight />
         </button>
       </div>
