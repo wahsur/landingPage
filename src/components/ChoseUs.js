@@ -9,7 +9,7 @@ export default function ChoseUs() {
         </h2>
 
         {/* Outer Grid Container */}
-        <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-[130px_auto] gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-[130px_auto] gap-3">
           {/* Speed Delivery (kiri atas) */}
           <div className="md:col-span-2 h-[130px] rounded-l-md shadow shadow-black overflow-hidden flex">
             <div className="w-[45%] bg-[#ECECEC] p-6 flex flex-col justify-center border rounded-l-md border-black">
@@ -21,8 +21,8 @@ export default function ChoseUs() {
               </p>
             </div>
             <div className="w-[55%] bg-[#2C1C4B] text-white p-6 flex items-center justify-start gap-4">
-              <Zap className="w-10 h-10 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
-              <div className="flex flex-col text-md md:text-2xl lg:text-3xl font-semibold">
+              <Zap className="w-10 h-10 sm:w-8 sm:h-8 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
+              <div className="flex flex-col text-md sm:text-sm md:text-2xl lg:text-3xl font-semibold">
                 <span>PENGIRIMAN</span>
                 <span>CEPAT DAN AMAN</span>
               </div>
@@ -35,14 +35,14 @@ export default function ChoseUs() {
               <h3 className="text-2xl md:text-5xl lg:text-7xl text-[#91B949] font-bold">
                 Merek
               </h3>
-              <p className="text-[#91B949] text-lg md:text-3xl lg:text-4xl font-semibold">
+              <p className="text-[#91B949] sm:text-sm text-lg md:text-3xl lg:text-4xl font-semibold">
                 Internasional
               </p>
             </div>
             {/* Bagian ungu */}
             <div className="bg-[#2C1C4B] w-[55%] md:w-full h-[130px] md:h-full order-1 md:order-2 text-white p-6 flex-1 flex justify-center items-center gap-3">
-              <Globe className="w-10 h-10 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
-              <div className="flex flex-col text-lg md:text-2xl lg:text-3xl font-semibold text-start leading-tight">
+              <Globe className="w-10 h-10 sm:w-8 sm:h-8 md:w-14 md:h-14 lg:w-24 lg:h-24 shrink-0" />
+              <div className="flex flex-col sm:text-md text-lg md:text-2xl lg:text-3xl font-semibold text-start leading-tight">
                 <span>MITRA GLOBAL</span>
                 <span>TERPERCAYA</span>
               </div>
@@ -52,10 +52,10 @@ export default function ChoseUs() {
           {/* Bali Tech Company (kiri bawah) */}
           <div className="md:rounded-t-md rounded-l-md md:rounded-l-0 shadow shadow-black overflow-hidden flex md:flex-col flex-row">
             <div className="h-[130px] md:h-full w-[45%] md:w-full bg-[#ECECEC] p-4 flex-1 flex flex-col justify-center border rounded-l-md md:rounded-bl-none md:rounded-t-md border-black">
-              <h3 className="text-xl md:text-4xl lg:text-5xl text-[#91B949] font-bold">
+              <h3 className="text-xl sm:text-[18px] md:text-4xl lg:text-5xl text-[#91B949] font-bold">
                 Perusahaan
               </h3>
-              <p className="text-[#91B949] text-xl md:text-3xl font-semibold">
+              <p className="text-[#91B949] text-xl sm:text-sm md:text-3xl font-semibold">
                 Teknologi Bali
               </p>
             </div>
