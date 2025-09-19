@@ -33,14 +33,14 @@ export default function Question() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="relative w-full h-[130dvh] md:h-[80dvh] lg:h-[110dvh] text-white py-20 px-6 md:px-12 font-poppins">
+    <section className="relative w-full h-[130vh] md:h-[80vh] lg:h-[110vh] text-white py-20 px-6 md:px-12 font-poppins">
       <div className="absolute inset-0 z-0">
         <Image
           src="/image/bg-faqs.jpg"
           alt="FAQs background"
           fill
           quality={100}
-          className="object-cover"
+          className="object-cover fixed"
         />
         <div className="absolute inset-0 bg-primary opacity-80"></div>
       </div>
