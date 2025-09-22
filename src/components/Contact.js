@@ -110,7 +110,7 @@ export default function Contact() {
               {/* Button */}
               <button
                 type="submit"
-                className=" bg-secondary text-white font-semibold py-2 px-4 rounded-md hover:bg-hover_bg shadow-md drop-shadow-[0_0_10px_#98C449] transition"
+                className=" bg-secondary text-white text-center font-semibold py-2 px-4 rounded-md hover:bg-hover_bg shadow-md transition"
               >
                 Kirim
               </button>

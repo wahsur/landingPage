@@ -98,7 +98,7 @@ export default function Navbar() {
           </ul>
 
           {/* Contact Us (Desktop) */}
-          <div className="hidden lg:flex bg-secondary text-white px-4 py-2 rounded-lg shadow-md drop-shadow-[0_0_10px_#98C449] hover:bg-hover_bg transition items-center cursor-pointer">
+          <div className="hidden lg:flex bg-secondary text-white px-4 py-2 rounded-lg shadow-md  hover:bg-hover_bg transition items-center cursor-pointer">
             <button
               onClick={() =>
                 document
@@ -236,7 +236,7 @@ export default function Navbar() {
               .getElementById("BERANDA")
               ?.scrollIntoView({ behavior: "smooth" })
           }
-          className="lg:hidden fixed bottom-6 right-6 bg-secondary drop-shadow-[0_0_10px_#98C449] text-white p-3 rounded-full shadow-lg hover:bg-hover_bg transition z-50"
+          className="lg:hidden fixed bottom-6 right-6 bg-secondary text-white p-3 rounded-full shadow-lg hover:bg-hover_bg transition z-50"
         >
           <ArrowUp size={24} />
         </button>

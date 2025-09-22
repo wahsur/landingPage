@@ -50,7 +50,7 @@ export default function Home() {
               .getElementById("LAYANAN")
               ?.scrollIntoView({ behavior: "smooth" });
           }}
-          className="mt-3 flex items-center justify-center text-xl bg-secondary text-white px-4 py-4 rounded-lg shadow-md drop-shadow-[0_0_10px_#98C449] hover:bg-hover_bg transition"
+          className="mt-3 flex items-center justify-center text-xl bg-secondary text-white px-4 py-4 rounded-lg shadow-md hover:bg-hover_bg transition"
         >
           Layanan Kami
           <ChevronRight />
