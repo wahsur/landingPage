@@ -4,7 +4,7 @@ export default function Trusted() {
   return (
     <div className="bg-white">
       <Image
-        src="/image/trusted.png"
+        src="/image/trusted_events.png"
         alt="Trusted Events"
         width={1920}
         height={800}

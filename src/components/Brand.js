@@ -4,7 +4,7 @@ export default function Brand() {
   return (
     <div className="bg-white">
       <Image
-        src="/image/brand.png"
+        src="/image/trusted_brands.png"
         alt="Trusted Events"
         width={1920}
         height={800}

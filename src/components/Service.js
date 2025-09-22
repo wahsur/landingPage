@@ -44,7 +44,8 @@ export default function Services() {
               Kami <br className="hidden lg:block" />
               menyediakan <br className="hidden lg:block" />
               apa <br className="hidden md:block lg:hidden" />
-              yang <br className="hidden lg:block" /> anda <br className="hidden lg:block" />
+              yang <br className="hidden lg:block" /> anda{" "}
+              <br className="hidden lg:block" />
               butuhkan!
             </h1>
           </div>
@@ -64,7 +65,14 @@ export default function Services() {
                     {services.desc}
                   </p>
                 </div>
-                <button className="flex items-center bg-secondary hover:bg-hover_bg text-white rounded-lg py-1 px-3 font-bold text-sm lg:text-base whitespace-nowp">
+                <button
+                  onClick={() => {
+                    document
+                      .getElementById("KONTAK")
+                      ?.scrollIntoView({ behavior: "smooth" });
+                  }}
+                  className="flex items-center bg-secondary hover:bg-hover_bg text-white rounded-lg py-1 px-3 font-bold text-sm lg:text-base whitespace-nowp"
+                >
                   Selengkapnya
                   <span className="ml-1 text-lg">›</span>
                 </button>
