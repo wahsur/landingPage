@@ -4,12 +4,12 @@ export default function Partner() {
   const partners = [
     {
       title: "Hotel & Resort",
-      desc: "Jika MICE adalah kebutuhan yang sangat penting, maka BOD adalah solusi untuk bisnis hospitality. BLiP siap memberikan koneksi terbaik dimanapun lokasi event penting anda. Fleksibel dan bisa diandalkan.",
+      desc: "Jika MICE adalah kebutuhan yang sangat penting, maka NetforEnt adalah solusi untuk bisnis hospitality. Kami siap memberikan koneksi terbaik dimanapun lokasi event penting anda. Fleksibel dan bisa diandalkan.",
       img: "/image/hotel&resort.png",
     },
     {
       title: "Cafe & Resto",
-      desc: "Event di ruang usaha anda seperti kompetisi, Nobar, hingga Mabar E-sport pasti akan membutuhkan koneksi juara. Pastikan BOD mampu memenuhi kebutuhan anda.",
+      desc: "Event di ruang usaha anda seperti kompetisi, Nobar, hingga Mabar E-sport pasti akan membutuhkan koneksi juara. Pastikan NetforEnt mampu memenuhi kebutuhan anda.",
       img: "/image/cafe&resto.png",
     },
     {
@@ -19,13 +19,13 @@ export default function Partner() {
     },
     {
       title: "Co-Working Space",
-      desc: "Walaupun koneksi anda cukup mumpuni di ruang-ruang bekerja, kebutuhan akan workshop dan exhibition pasti akan membutuhkan koneksi extra, BOD adalah solusinya",
+      desc: "Walaupun koneksi anda cukup mumpuni di ruang-ruang bekerja, kebutuhan akan workshop dan exhibition pasti akan membutuhkan koneksi extra, NetforEnt adalah solusinya",
       img: "/image/workingSpace.png",
     },
   ];
   return (
     <section id="MITRA" className="h-full bg-background1 py-20 px-6 md:px-12 font-poppins">
-      <div className="max-w-6xl mx-auto">
+      <div className="w-full mx-auto">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl text-shadow-lg font-extrabold text-primary text-center mb-12">
           MITRA
@@ -55,7 +55,7 @@ export default function Partner() {
                   index % 2 === 1 ? "md:order-2 text-start" : ""
                 } space-y-4`}
               >
-                <h3 className="text-3xl md:text-7xl font-bold text-secondary">
+                <h3 className="text-3xl md:text-6xl font-bold text-secondary">
                   {partner.title}
                 </h3>
                 <p className="text-primary md:text-xl leading-relaxed">{partner.desc}</p>

@@ -23,7 +23,7 @@ export default function Contact() {
       id="KONTAK"
       className="bg-background1 py-20 px-6 md:px-12 font-poppins"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="w-full mx-auto">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl text-shadow-lg font-extrabold text-primary text-center mb-12">
           KONTAK

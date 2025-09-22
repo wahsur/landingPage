@@ -3,7 +3,7 @@ import { Zap, Globe, MapPin, Users } from "lucide-react";
 export default function ChoseUs() {
   return (
     <section className="bg-background2 py-16 font-poppins">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="w-full mx-auto px-4">
         <h2 className="text-4xl font-bold text-[rgb(44,28,75)] mb-8">
           Mengapa memilih kami?
         </h2>
@@ -30,10 +30,10 @@ export default function ChoseUs() {
           </div>
 
           {/* Brands International (kanan full tinggi) */}
-          <div className="md:row-span-2 md:rounded-t-md rounded-r-md md:rounded-r-0 shadow shadow-black overflow-hidden flex md:flex-col flex-row">
+          <div className="md:row-span-2 md:rounded-t-md rounded-r-md md:rounded-br-none shadow shadow-black overflow-hidden flex md:flex-col flex-row">
             <div className="bg-[#ECECEC] h-[130px] md:h-full w-[45%] md:w-full  p-6 flex-1 flex flex-col order-2 text-right border rounded-r-md md:rounded-t-md md:rounded-br-none border-black">
               <h3 className="text-2xl md:text-5xl lg:text-7xl text-[#91B949] font-bold">
-                Brands
+                Brand
               </h3>
               <p className="text-[#91B949] sm:text-sm text-lg md:text-3xl lg:text-4xl font-semibold">
                 Internasional
@@ -50,7 +50,7 @@ export default function ChoseUs() {
           </div>
 
           {/* Bali Tech Company (kiri bawah) */}
-          <div className="md:rounded-t-md rounded-l-md md:rounded-l-0 shadow shadow-black overflow-hidden flex md:flex-col flex-row">
+          <div className="md:rounded-t-md rounded-l-md md:rounded-bl-none shadow shadow-black overflow-hidden flex md:flex-col flex-row">
             <div className="h-[130px] md:h-full w-[45%] md:w-full bg-[#ECECEC] p-4 flex-1 flex flex-col justify-center border rounded-l-md md:rounded-bl-none md:rounded-t-md border-black">
               <h3 className="text-xl sm:text-[18px] md:text-4xl lg:text-5xl text-[#91B949] font-bold">
                 Perusahaan

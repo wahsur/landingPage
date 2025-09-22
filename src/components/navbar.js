@@ -62,7 +62,7 @@ export default function Navbar() {
             : "bg-transparent"
         } font-poppins`}
       >
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-full mx-auto px-6 py-4 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Image src="/image/logo.png" width={80} height={35} alt="Logo" />
@@ -236,7 +236,7 @@ export default function Navbar() {
               .getElementById("BERANDA")
               ?.scrollIntoView({ behavior: "smooth" })
           }
-          className="md:hidden fixed bottom-6 right-6 bg-secondary drop-shadow-[0_0_10px_#98C449] text-white p-3 rounded-full shadow-lg hover:bg-hover_bg transition z-50"
+          className="lg:hidden fixed bottom-6 right-6 bg-secondary drop-shadow-[0_0_10px_#98C449] text-white p-3 rounded-full shadow-lg hover:bg-hover_bg transition z-50"
         >
           <ArrowUp size={24} />
         </button>

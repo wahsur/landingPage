@@ -38,8 +38,8 @@ export default function Services() {
           LAYANAN
         </h2>
 
-        <div className="flex flex-col lg:flex-row w-full max-w-6xl justify-between text-center lg:text-start lg:items-center">
-          <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
+        <div className="flex flex-col lg:flex-row w-full justify-between text-center lg:text-start lg:justify-between">
+          <div className="w-full lg:w-full mb-8 lg:mb-0">
             <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight">
               Kami <br className="hidden lg:block" />
               menyediakan <br className="hidden lg:block" />
@@ -50,7 +50,7 @@ export default function Services() {
             </h1>
           </div>
 
-          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-end space-y-6">
+          <div className="w-full lg:w-full flex flex-col items-center lg:items-end space-y-6">
             {service.map((services, index) => (
               <div
                 key={index}
