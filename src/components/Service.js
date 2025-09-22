@@ -1,24 +1,14 @@
 import Image from "next/image";
 import { Wifi, Cpu, LayoutGrid } from "lucide-react";
+import service from "@/data/service.json"
 
 export default function Services() {
-  const service = [
-    {
-      title: "Pengembang Aplikasi",
-      desc: "Inovasi melalui kode, menyentuh hidup melalui aplikasi.",
-      icon: <LayoutGrid className="w-20 h-20 text-primary" />,
-    },
-    {
-      title: "Penyedia Hardware",
-      desc: "Menggerakkan teknologi, memenuhi setiap kebutuhan hardware anda.",
-      icon: <Cpu className="w-20 h-20 text-primary" />,
-    },
-    {
-      title: "Internet untuk Acara",
-      desc: "Penyedia internet khusus acara yang fleksibel dan powerful.",
-      icon: <Wifi className="w-20 h-20 text-primary" />,
-    },
-  ];
+  const iconMap ={
+    Wifi: <Wifi className="w-20 h-20 text-primary" />,
+    Cpu: <Cpu className="w-20 h-20 text-primary" />,
+    LayoutGrid: <LayoutGrid className="w-20 h-20 text-primary" />
+  };
+
   return (
     <section className="relative w-full h-min-screen overflow-hidden font-poppins">
       <div className="absolute inset-0 z-0">
@@ -56,7 +46,7 @@ export default function Services() {
                 key={index}
                 className="lg:w-full md:w-xl w-64 bg-white rounded-xl p-4 lg:p-6 shadow-lg shadow-gray-800 flex flex-col md:flex-row lg:flex-row text-center md:text-start lg:text-start items-center gap-4"
               >
-                <div>{services.icon}</div>
+                <div>{iconMap[services.icon]}</div>
                 <div className="flex-1">
                   <h3 className="text-xl lg:text-2xl text-secondary font-bold">
                     {services.title}

@@ -1,28 +1,8 @@
 import Image from "next/image";
+import partner from "@/data/partner.json";
 
 export default function Partner() {
-  const partners = [
-    {
-      title: "Hotel & Resort",
-      desc: "Jika MICE adalah kebutuhan yang sangat penting, maka NetforEnt adalah solusi untuk bisnis hospitality. Kami siap memberikan koneksi terbaik dimanapun lokasi event penting anda. Fleksibel dan bisa diandalkan.",
-      img: "/image/hotel&resort.png",
-    },
-    {
-      title: "Cafe & Resto",
-      desc: "Event di ruang usaha anda seperti kompetisi, Nobar, hingga Mabar E-sport pasti akan membutuhkan koneksi juara. Pastikan NetforEnt mampu memenuhi kebutuhan anda.",
-      img: "/image/cafe&resto.png",
-    },
-    {
-      title: "Event & Wedding Organizer",
-      desc: "Acara adalah nafas dari bisnis anda, Koneksi internet bisa jadi syarat utama bagi pemilik event. Kami pastikan koneksi internet yang besar siap kami deliver di manapun venue anda berada",
-      img: "/image/event&wedding.png",
-    },
-    {
-      title: "Co-Working Space",
-      desc: "Walaupun koneksi anda cukup mumpuni di ruang-ruang bekerja, kebutuhan akan workshop dan exhibition pasti akan membutuhkan koneksi extra, NetforEnt adalah solusinya",
-      img: "/image/workingSpace.png",
-    },
-  ];
+  
   return (
     <section id="MITRA" className="h-full bg-background1 py-20 px-6 md:px-12 font-poppins">
       <div className="w-full mx-auto">
@@ -44,7 +24,7 @@ export default function Partner() {
         </div>
 
         <div className="w-full space-y-16 p-6 md:py-20 md:px-32 bg-white rounded-md shadow">
-          {partners.map((partner, index) => (
+          {partner.map((partners, index) => (
             <div
               key={index}
               className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
@@ -56,9 +36,9 @@ export default function Partner() {
                 } space-y-4`}
               >
                 <h3 className="text-3xl md:text-6xl font-bold text-secondary">
-                  {partner.title}
+                  {partners.title}
                 </h3>
-                <p className="text-primary md:text-xl leading-relaxed">{partner.desc}</p>
+                <p className="text-primary md:text-xl leading-relaxed">{partners.desc}</p>
               </div>
 
               {/* Image */}
@@ -69,8 +49,8 @@ export default function Partner() {
               >
                 <div className="relative w-full max-w-sm h-64">
                   <Image
-                    src={partner.img}
-                    alt={partner.title}
+                    src={partners.img}
+                    alt={partners.title}
                     fill
                     className="object-contain rounded-md md:shadow"
                   />

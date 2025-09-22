@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Pengembang Aplikasi",
+      "desc": "Inovasi melalui kode, menyentuh hidup melalui aplikasi.",
+      "icon": "LayoutGrid"
+    },
+    {
+      "title": "Penyedia Hardware",
+      "desc": "Menggerakkan teknologi, memenuhi setiap kebutuhan hardware anda.",
+      "icon": "Cpu"
+    },
+    {
+      "title": "Internet untuk Acara",
+      "desc": "Penyedia internet khusus acara yang fleksibel dan powerful.",
+      "icon": "Wifi"
+    }
+  ]

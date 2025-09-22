@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Hotel & Resort",
+      "desc": "Jika MICE adalah kebutuhan yang sangat penting, maka NetforEnt adalah solusi untuk bisnis hospitality. Kami siap memberikan koneksi terbaik dimanapun lokasi event penting anda. Fleksibel dan bisa diandalkan.",
+      "img": "/image/hotel&resort.png"
+    },
+    {
+      "title": "Cafe & Resto",
+      "desc": "Event di ruang usaha anda seperti kompetisi, Nobar, hingga Mabar E-sport pasti akan membutuhkan koneksi juara. Kami pastikan NetforEnt mampu memenuhi kebutuhan anda.",
+      "img": "/image/cafe&resto.png"
+    },
+    {
+      "title": "Event & Wedding Organizer",
+      "desc": "Acara adalah nafas dari bisnis anda, Koneksi internet bisa jadi syarat utama bagi pemilik event. Kami pastikan koneksi internet yang besar siap kami deliver di manapun venue anda berada.",
+      "img": "/image/event&wedding.png"
+    },
+    {
+      "title": "Co-Working Space",
+      "desc": "Walaupun koneksi anda cukup mumpuni di ruang-ruang bekerja, kebutuhan akan workshop dan exhibition pasti akan membutuhkan koneksi extra, NetforEnt adalah solusinya.",
+      "img": "/image/workingSpace.png"
+    }
+  ]

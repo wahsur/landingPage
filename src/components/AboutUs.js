@@ -1,20 +1,8 @@
  import Image from "next/image";
+ import about from "@/data/about.json"
 
 export default function AboutUs() {
-  const dreams = [
-    {
-      title: "Solusi yang Disesuaikan",
-      desc: "Kami percaya setiap orang punya kebutuhan unik. Karena itu, kami menawarkan solusi yang dirancang khusus untuk mendukung perjalanan dan tujuan pribadi Anda.",
-    },
-    {
-      title: "Keahlian Tepercaya",
-      desc: "Dengan pengalaman dan tim profesional, kami menghadirkan layanan yang bisa diandalkan untuk membantu Anda mewujudkan impian dengan percaya diri.",
-    },
-    {
-      title: "Dukungan Berkelanjutan",
-      desc: "Kami tidak hanya hadir sekali, tapi menemani Anda di setiap langkah perjalanan dengan dukungan yang berkelanjutan dan responsif.",
-    },
-  ];
+  
   return (
     <section className="bg-background2 font-poppins py-20 px-6 md:px-12">
       <div className="w-full mx-auto">
@@ -61,7 +49,7 @@ export default function AboutUs() {
           </h3>
 
           <div className="space-y-4">
-            {dreams.map((dream, i) => (
+            {about.map((dream, i) => (
               <div key={i} className="bg-white rounded-md shadow-md shadow-gray-400 p-5">
                 <h4 className="text-xl font-semibold text-secondary mb-1">
                   {dream.title}
