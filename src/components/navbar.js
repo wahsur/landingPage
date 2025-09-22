@@ -132,7 +132,7 @@ export default function Navbar() {
         {menuOpen && (
           <div
             id="mobile-menu"
-            className="md:hidden bg-primaryFooter/90 text-white px-6 py-4 space-y-4 absolute w-full left-0"
+            className="lg:hidden bg-primaryFooter/90 text-white px-6 py-4 space-y-4 absolute w-full left-0"
           >
             <Link
               href="#"
