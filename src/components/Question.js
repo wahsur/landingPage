@@ -52,7 +52,7 @@ export default function Question() {
         </h2>
 
         <div className="flex flex-col md:flex-col lg:text-start lg:flex-row max-w-full mx-auto gap-12">
-          <div className="w-full lg:w-1/2 text-center md:text-center">
+          <div className="w-full lg:w-1/2 text-center md:text-center lg:text-start">
             <h1 className="text-3xl md:text-5xl font-semibold text-secondary leading-tight">
               PERTANYAAN <br className="hidden lg:block" />
               UMUM <br className="hidden lg:block" />
