@@ -31,7 +31,7 @@ export default function ChoseUs() {
 
           {/* Brands International (kanan full tinggi) */}
           <div className="md:row-span-2 md:rounded-t-md rounded-r-md md:rounded-r-0 shadow shadow-black overflow-hidden flex md:flex-col flex-row">
-            <div className="bg-[#ECECEC] h-[130px] md:h-full w-[45%] md:w-full  p-6 flex-1 flex flex-col order-2 text-start border rounded-r-md md:rounded-t-md md:rounded-br-none border-black">
+            <div className="bg-[#ECECEC] h-[130px] md:h-full w-[45%] md:w-full  p-6 flex-1 flex flex-col order-2 text-right border rounded-r-md md:rounded-t-md md:rounded-br-none border-black">
               <h3 className="text-2xl md:text-5xl lg:text-7xl text-[#91B949] font-bold">
                 Merek
               </h3>
@@ -75,7 +75,7 @@ export default function ChoseUs() {
                 LEBIH DARI 100 MITRA
               </p>
             </div>
-            <div className="h-[130px] md:h-full w-[45%] md:w-full bg-[#ECECEC] p-4 flex-1 flex flex-col justify-center border md:rounded-b-md  rounded-r-md md:rounded-r-none border-black">
+            <div className="h-[130px] md:h-full w-[45%] md:w-full bg-[#ECECEC] p-4 flex-1 flex flex-col justify-center border md:rounded-b-md text-right md:text-start  rounded-r-md md:rounded-r-none border-black">
               <h3 className="text-3xl md:text-5xl lg:text-6xl text-[#91B949] font-bold">
                 100+
               </h3>

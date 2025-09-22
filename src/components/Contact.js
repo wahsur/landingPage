@@ -3,13 +3,13 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const firstName = e.target.firstName.value;
+    const firstName = e.target.firstName.value; 
     const lastName = e.target.lastName.value;
     const email = e.target.email.value;
     const subject = e.target.subject.value;
     const message = e.target.message.value;
 
-    const mailtoLink = `mailto:youremail@example.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:info@semuaaplikasi.id?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(
       `Nama: ${firstName} ${lastName}\nEmail: ${email}\n\nPesan:\n${message}`
