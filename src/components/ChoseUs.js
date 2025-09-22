@@ -33,7 +33,7 @@ export default function ChoseUs() {
           <div className="md:row-span-2 md:rounded-t-md rounded-r-md md:rounded-r-0 shadow shadow-black overflow-hidden flex md:flex-col flex-row">
             <div className="bg-[#ECECEC] h-[130px] md:h-full w-[45%] md:w-full  p-6 flex-1 flex flex-col order-2 text-right border rounded-r-md md:rounded-t-md md:rounded-br-none border-black">
               <h3 className="text-2xl md:text-5xl lg:text-7xl text-[#91B949] font-bold">
-                Merek
+                Brands
               </h3>
               <p className="text-[#91B949] sm:text-sm text-lg md:text-3xl lg:text-4xl font-semibold">
                 Internasional

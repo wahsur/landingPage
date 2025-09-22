@@ -58,7 +58,7 @@ export default function Navbar() {
       <nav
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
           scrolled
-            ? "backdrop-blur-sm bg-primaryFooter/60 shadow-md"
+            ? "backdrop-blur-sm top-0 bg-primaryFooter/60 shadow-md"
             : "bg-transparent"
         } font-poppins`}
       >

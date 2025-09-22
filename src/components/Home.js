@@ -40,7 +40,7 @@ export default function Home() {
           className="mt-2 text-lg font-monospace
          font-extralight tracking-[0.3em] font-montserrat"
         >
-          INNOVATIVE, INTEGRATED, ELEVATE
+          INNOVATE, INTEGRATED, ELEVATE
         </p>
 
         {/* button CTA */}
