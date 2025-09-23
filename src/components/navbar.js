@@ -108,7 +108,7 @@ export default function Navbar() {
               className={`nav-link ${
                 activeSection === "KONTAK"
                   ? "text-white"
-                  : "text-white hover:text-secondary"
+                  : "text-white hover:bg-hover_bg"
               }`}
             >
               HUBUNGI KAMI

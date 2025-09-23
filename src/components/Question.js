@@ -9,7 +9,7 @@ export default function Question() {
 
   return (
     // h-[130vh] sm:h-[75vh]  md:h-[85vh] lg:h-[110vh]
-    <section className="relative w-full h-min text-white py-20 px-6 md:px-12 font-poppins">
+    <section className="relative w-full h-min text-white py-14 px-6 md:px-12 font-poppins">
       <div className="absolute inset-0 z-0">
         <Image
           src="/image/bg-faqs.jpg"
