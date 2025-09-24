@@ -4,7 +4,7 @@
 export default function AboutUs() {
   
   return (
-    <section className="bg-background2 font-poppins py-14 px-6 md:px-12">
+    <section className="bg-background2 font-poppins py-12 px-6 md:px-12">
       <div className="w-full mx-auto">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-primary text-center mb-12 text-shadow-lg">

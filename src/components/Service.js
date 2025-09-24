@@ -23,7 +23,7 @@ export default function Services() {
         <div className="absolute inset-0 bg-primary opacity-80"></div>
       </div>
 
-      <div className="relative z-10 flex-col items-center justify-center h-full text-white py-14 px-6 lg:px-12">
+      <div className="relative z-10 flex-col items-center justify-center h-full text-white py-12 px-6 lg:px-12">
         <h2 className="text-4xl lg:text-5xl font-extrabold mb-12 text-center text-shadow-lg">
           LAYANAN
         </h2>

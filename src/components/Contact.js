@@ -21,7 +21,7 @@ export default function Contact() {
   return (
     <section
       id="KONTAK"
-      className="bg-background1 py-14 px-6 md:px-12 font-poppins"
+      className="bg-background1 py-12 px-6 md:px-12 font-poppins"
     >
       <div className="w-full mx-auto">
         {/* Title */}
