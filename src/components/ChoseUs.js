@@ -4,13 +4,12 @@ export default function ChoseUs() {
   return (
     <section className="bg-background2 py-16 font-poppins">
       <div className="w-full mx-auto px-4">
-        <h2 className="text-4xl font-bold text-[rgb(44,28,75)] mb-8">
+        <h2 className="mx-10 text-4xl font-bold text-[rgb(44,28,75)] mb-8">
           Mengapa memilih kami?
         </h2>
 
         {/* Outer Grid Container */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-[130px_auto] gap-3">
-          {/* Speed Delivery (kiri atas) */}
+        <div className="mx-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-[130px_auto] gap-3">
           <div className="md:col-span-2 h-[130px] rounded-l-md shadow shadow-black overflow-hidden flex">
             <div className="w-[45%] bg-[#ECECEC] p-6 flex flex-col justify-center border rounded-l-md border-black">
               <h3 className="text-2xl md:text-4xl lg:text-6xl text-[#91B949] font-bold">

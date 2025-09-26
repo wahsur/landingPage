@@ -4,7 +4,7 @@ import partner from "@/data/partner.json";
 export default function Partner() {
   
   return (
-    <section id="MITRA" className="h-full bg-background1 py-12 px-6 md:px-12 font-poppins">
+    <section id="MITRA" className="h-full bg-background1 py-16 px-6 md:px-12 font-poppins">
       <div className="w-full mx-auto">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl text-shadow-lg font-extrabold text-primary text-center mb-12">
